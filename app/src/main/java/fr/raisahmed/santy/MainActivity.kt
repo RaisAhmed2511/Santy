@@ -9,11 +9,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // injecter le fragment dans notre boîte
+        // charger notre Repository
+        val repo = ExerciceRepository()
 
-        val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.fragment_container, HomeFragment(this))
-        transaction.addToBackStack(null) // pour ne pas avoir de retour sur le composant
-        transaction.commit()
+        // mettre à jour la liste d'exercices
+        // le callback dans updateData permet d'effectuer les instructions entre crochets
+        // après que les actions dans la méthode updateData soient effectués
+
+        repo.updateData {
+            // injecter le fragment dans notre boîte ( fragment_container )
+            val transaction = supportFragmentManager.beginTransaction()
+            transaction.replace(R.id.fragment_container, HomeFragment(this))
+            transaction.addToBackStack(null) // pour ne pas avoir de retour sur le composant
+            transaction.commit()
+        }
+
     }
 }
