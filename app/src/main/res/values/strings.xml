@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Santy</string>
+    <string name="trend_exercices">Exercices à la une</string>
+    <string name="list_exercices">Liste d\'exercices</string>
+    <string name="name_exercice">Nom de l\'exerice</string>
+    <string name="description_exercice">Description de l\'exercices</string>
+    <string name="liked_exercices">Exercices aimés</string>
+    <string name="profil">Profil</string>
+
+    <!-- Fenêtre pop-up -->
+    <string name="popup_exercice_name">Nom de l\'exercice</string>
+    <string name="popup_exercice_description">Description</string>
+    <string name="popup_exercice_little_description">Petite description</string>
+    <string name="popup_difficulty">Difficulté</string>
+    <string name="popup_difficulty_description">Moyenne</string>
+    <string name="popup_same_exercices">Exercices similaires</string>
+    <string name="popup_name_same_exercices">Nom exercice similaire</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "553528267544",
+    "project_id": "santy-4e19d",
+    "storage_bucket": "santy-4e19d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553528267544:android:580875bd42330f4b53046d",
+        "android_client_info": {
+          "package_name": "fr.raisahmed.santy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553528267544-smu5fodri3go4mn7s3e7ill4gb6rj45a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJmWuwAjqOFikBeOvv5ipgqKW8o89GWOY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553528267544-smu5fodri3go4mn7s3e7ill4gb6rj45a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
