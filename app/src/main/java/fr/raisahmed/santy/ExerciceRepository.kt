@@ -46,4 +46,9 @@ class ExerciceRepository {
         })
     }
 
+    // mettre à jour un objet exercice en base de données
+    fun updateExercice(exercice : ExerciceModel){
+        databaseRef.child(exercice.id).setValue(exercice)
+    }
+
 }
