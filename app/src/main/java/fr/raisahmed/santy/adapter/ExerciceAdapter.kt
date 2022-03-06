@@ -9,13 +9,10 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import fr.raisahmed.santy.ExerciceModel
-import fr.raisahmed.santy.ExerciceRepository
-import fr.raisahmed.santy.MainActivity
-import fr.raisahmed.santy.R
+import fr.raisahmed.santy.*
 
 class ExerciceAdapter(
-    private val context: MainActivity,
+    val context: MainActivity,
     private val exercicesList: List<ExerciceModel>,
     val layoutId : Int
     ) : RecyclerView.Adapter<ExerciceAdapter.ViewHolder>() {
@@ -61,6 +58,12 @@ class ExerciceAdapter(
             currentExercice.liked = !currentExercice.liked
             // mettre à jour l'objet exercice
             repo.updateExercice(currentExercice)
+        }
+
+        // intéraction lors d'un clic sur un exercice
+        holder.itemView.setOnClickListener{
+            // afficher la popup
+            ExercicePopup(this, currentExercice).show()
         }
     }
 

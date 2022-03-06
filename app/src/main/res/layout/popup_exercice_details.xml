@@ -16,6 +16,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:id="@+id/image_item"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -47,7 +48,8 @@
         android:id="@+id/popup_exercice_description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"
         android:text="@string/popup_exercice_description"
         app:layout_constraintStart_toStartOf="@+id/cardView2"
         app:layout_constraintTop_toBottomOf="@+id/cardView2"
@@ -82,6 +84,7 @@
         style="@style/DefaultTextStyle"/>
 
     <View
+        android:layout_marginTop="40dp"
         android:id="@+id/view_separation"
         android:layout_width="1dp"
         android:layout_height="80dp"
@@ -93,10 +96,10 @@
         android:id="@+id/like_button"
         android:layout_width="40dp"
         android:layout_height="40dp"
-        android:src="@drawable/ic_like"
+        android:src="@drawable/ic_unlike"
         app:layout_constraintBottom_toBottomOf="@+id/view_separation"
-        app:layout_constraintTop_toTopOf="@+id/view_separation"
-        tools:layout_editor_absoluteX="10dp" />
+        app:layout_constraintEnd_toStartOf="@+id/view_separation"
+        app:layout_constraintTop_toTopOf="@+id/view_separation" />
 
 
 

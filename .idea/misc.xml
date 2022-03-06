@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Santy/app/src/main/res/layout/activity_main.xml" value="0.26328800988875156" />
-        <entry key="..\:/Santy/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Santy/app/src/main/res/drawable/bottom_nav_color.xml" value="0.1" />
+        <entry key="..\:/Santy/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Santy/app/src/main/res/layout/fragment_add_exercice.xml" value="0.2912621359223301" />
+        <entry key="..\:/Santy/app/src/main/res/layout/fragment_collection.xml" value="0.1" />
+        <entry key="..\:/Santy/app/src/main/res/layout/fragment_home.xml" value="0.33" />
         <entry key="..\:/Santy/app/src/main/res/layout/item_horizontal_exercice.xml" value="0.22" />
-        <entry key="..\:/Santy/app/src/main/res/layout/item_vertical_exercices.xml" value="0.1" />
-        <entry key="..\:/Santy/app/src/main/res/layout/popup_exercice_details.xml" value="0.22" />
+        <entry key="..\:/Santy/app/src/main/res/layout/item_vertical_exercices.xml" value="0.18" />
+        <entry key="..\:/Santy/app/src/main/res/layout/popup_exercice_details.xml" value="0.1" />
+        <entry key="..\:/Santy/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -1,4 +1,10 @@
 <resources>
+
+
+    <string name="bottom_home_item">Acceuil</string>
+    <string name="bottom_collection_item">Favoris</string>
+    <string name="bottom_add_exercice_item">Ajouter</string>
+
     <string name="app_name">Santy</string>
     <string name="trend_exercices">Exercices à la une</string>
     <string name="list_exercices">Liste d\'exercices</string>
@@ -6,6 +12,7 @@
     <string name="description_exercice">Description de l\'exercices</string>
     <string name="liked_exercices">Exercices aimés</string>
     <string name="profil">Profil</string>
+    <string name="ajouter">Ajouter un exercice</string>
 
     <!-- Fenêtre pop-up -->
     <string name="popup_exercice_name">Nom de l\'exercice</string>
@@ -15,4 +22,17 @@
     <string name="popup_difficulty_description">Moyenne</string>
     <string name="popup_same_exercices">Exercices similaires</string>
     <string name="popup_name_same_exercices">Nom exercice similaire</string>
+
+    <string name="add_exercice_page_title">Ajout d\'un exercice</string>
+    <string name="add_exercice_page_upload_button">Charger Image</string>
+    <string name="add_exercice_page_name_input">@string/name_exercice</string>
+    <string name="add_exercice_page_description_input">@string/description_exercice</string>
+
+    <string-array name="add_exercice_page_spinner_input">
+        <item>Difficulté : Facile</item>
+        <item>Difficulté : Moyenne</item>
+        <item>Difficulté : Difficile</item>
+    </string-array>
+
+    <string name="add_exercice_page_confirm_button">Confirmer</string>
 </resources>

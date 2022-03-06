@@ -22,7 +22,7 @@ class HomeFragment(
 
         // recuperer le recyclerview
         val horizontalRecyclerView = view.findViewById<RecyclerView>(R.id.horizontal_recycler_view)
-        horizontalRecyclerView.adapter = ExerciceAdapter(context, exerciceList, R.layout.item_horizontal_exercice)
+        horizontalRecyclerView.adapter = ExerciceAdapter(context, exerciceList.filter { !it.liked }, R.layout.item_horizontal_exercice)
 
         // recuperer second recyclerview
         val verticalRecyclerView = view.findViewById<RecyclerView>(R.id.vertical_recycler_view)
