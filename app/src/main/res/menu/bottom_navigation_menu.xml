@@ -12,4 +12,12 @@
         android:id="@+id/add_exercice_page"
         android:title="@string/bottom_add_exercice_item"
         android:icon="@drawable/ic_plus"/>
+    <item
+        android:id="@+id/profil"
+        android:title="profil"
+        android:icon="@drawable/ic_profile"/>
+    <item
+        android:id="@+id/graph"
+        android:title="Graphe"
+        android:icon="@drawable/ic_graph"/>
 </menu>

@@ -97,7 +97,7 @@ class ExerciceRepository {
         databaseRef.child(exercice.id).setValue(exercice)
     }
 
-    // inserer un nouvele exericice
+    // inserer un nouvel exercice
     fun insertExercice(exercice : ExerciceModel){
         databaseRef.child(exercice.id).setValue(exercice)
     }

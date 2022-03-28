@@ -5,9 +5,7 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import fr.raisahmed.santy.fragments.AddExerciceFragment
-import fr.raisahmed.santy.fragments.CollectionFragment
-import fr.raisahmed.santy.fragments.HomeFragment
+import fr.raisahmed.santy.fragments.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,6 +28,14 @@ class MainActivity : AppCompatActivity() {
                 }
                 R.id.add_exercice_page -> {
                     loadFragment(AddExerciceFragment(this), R.string.ajouter)
+                    return@setOnNavigationItemSelectedListener true
+                }
+                R.id.profil -> {
+                    loadFragment(ProfilFragment(this), R.string.profil)
+                    return@setOnNavigationItemSelectedListener true
+                }
+                R.id.graph -> {
+                    loadFragment(GraphFragment(this), R.string.graph)
                     return@setOnNavigationItemSelectedListener true
                 }
                 else -> false
