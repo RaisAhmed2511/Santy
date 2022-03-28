@@ -12,6 +12,7 @@
     <string name="description_exercice">Description de l\'exercices</string>
     <string name="liked_exercices">Exercices aimés</string>
     <string name="profil">Profil</string>
+    <string name="graph">Graphe</string>
     <string name="ajouter">Ajouter un exercice</string>
 
     <!-- Fenêtre pop-up -->
